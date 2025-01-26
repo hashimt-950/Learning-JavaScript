@@ -1,5 +1,7 @@
+let computer_choice;
+let players_choice;
+
 function getComputerChoice(){
-   let computer_choice
    let random = Math.random()
    if (random >= 0 && random <0.3) {
       computer_choice = "rock"
@@ -14,3 +16,14 @@ function getComputerChoice(){
 }
 
 console.log(getComputerChoice())
+
+
+
+function getPlayersChoice(){
+   console.log("choose Rock Paper Scissors")
+   players_choice = prompt()
+   return players_choice;
+}
+
+console.log(getPlayersChoice())
+
